@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a class= "add-to-cart" href="#" data-name="Apple" data-price="1.22">Apple $1.22</a></li>
+        <li><a class= "add-to-cart" href="#" data-name="Banana" data-price="1.33">Banana $1.33</a></li>
+        <li><a class= "add-to-cart" href="#" data-name="Shoe" data-price="22.33">Shoe $22.33</a></li>
+        <li><a class= "add-to-cart" href="#" data-name="Frisbee" data-price="5.22">Frisbee $5.22</a></li>
+      </ul>
+      <button id="clear-cart">Clear Cart</button>
+    </div>
+    <div>
+      <ul id='show-cart'>
+        <!-- -->
+      </ul>
+      <div class="total-cart">
+        Total Cart:R<span id="total-cart"></span>
+      </div>
+    </div>
+
+    <form action="mailto:evansmunatsa7@gmail.com" method="post" enctype="text/plain" >
+    <ul id='show-cart'>
+        <!-- -->
+      </ul>
+      FirstName:<input type="text" name="FirstName">
+      LastName:<input type="text" name="LastName">
+      PhoneNumber:<input type="text" name="PhoneNumber">
+      Email:<input type="text" name="Email">
+      <input type="submit" name="submit" value="Submit">
+    </form>
+    <h1>Shopping Cart</h1>
+    <!-- <script src="jquery-3.1.1.min.js" type="text/javascript" charset="utf-8" async defer></script> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript" charset="utf-8" async defer></script>
+  </body>
+</html>
